@@ -105,7 +105,7 @@
                                 <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
-                        <form method="POST" action="/guardar" enctype="multipart/form-data">
+                        <form method="POST" action="guardar" enctype="multipart/form-data">
                             @csrf
                             <input type="hidden" name="id_edita" id="id_edita">
                             <div class="modal-body">
